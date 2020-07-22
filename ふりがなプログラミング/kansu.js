@@ -1,4 +1,4 @@
-let zeikin = (money) => {
+function zeikin(money){
     kane = parseInt(money * 1.10)
     return kane
 }
