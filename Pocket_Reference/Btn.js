@@ -1,11 +1,9 @@
 function ocBtn1(){
-    const number1 = document.form1.number1
-
-    number1.value = "60"
-    document.getElementById("span1").textContent = number1.value
+    const num1 = document.getElementById("num1").value
+    document.getElementById("span1").textContent = num1
 }
 
 function ocBtn2(){
-    document.form1.number1.value = ""
+    document.form1.num1.value = ""
     document.getElementById("span1").textContent = ""
 }
