@@ -1,0 +1,14 @@
+@charset "UTF-8";
+.hd1{
+    color: violet;
+}
+
+.la1{
+    background-color: gainsboro;
+    left: 8px;
+    top: 7px;
+    position: absolute;
+    display: block;
+    margin-top: 55px;
+    margin-left: 12px;
+}
