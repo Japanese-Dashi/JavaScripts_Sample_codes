@@ -2,11 +2,11 @@
 
 {
     const scores = [75, 84, 68];
-    for(let I = 0; I<scores.length; I++){
-        console.log(scores[I]);
-    }
+    scores.splice(0, 1, 90, 88);
+    const length = scores.length;
 
-    array(scores, scores.length);
+    array_print(scores, length);
+    array(scores, length);
 }
 
 function array(scs, scl){
@@ -21,4 +21,11 @@ function array(scs, scl){
     }
 
     document.write("配列scoresの各要素の積: "+ans);
+}
+
+function array_print(score_array, array_length){
+    for(let I = 0; I<array_length; I++){
+        document.writeln("scores["+I+"]: "+score_array[I]);
+    }
+
 }
