@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>タイトル</title>
+        <meta charset="UTF-8">
+        <style>
+            h1{
+                text-align: center;
+                font-size: 40px;
+            }
+
+            button{
+                height: 100px;
+                width: 300px;
+                margin-top: 10px;
+                margin-left: 100px;
+                font-size: 25px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <script>
+            function alertFn(){
+                var msg = "送信しますか?";
+                if(confirm(msg)){
+                    alert("送信します");
+                }
+                else{
+                    alert(送信をキャンセルします);
+                }
+            }
+        </script>
+
+        <h1>aアラートのやつ</h1>
+        <button onclick="alertFn()">押すなよ?</button>
+    </body>
+</html>
