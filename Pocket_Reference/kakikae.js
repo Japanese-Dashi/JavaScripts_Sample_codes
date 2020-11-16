@@ -1,1 +1,0 @@
-document.getElementById("la1").innerHTML = <input type="number" min="5" max="120"></input>
